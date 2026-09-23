@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "framework": "vite",
+  "outputDirectory": "dist",
+  "functions": {
+    "api/*.ts": {
+      "includeFiles": "{api/**,data/**}"
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/api/(.*)",
+      "destination": "/api"
+    },
+    {
+      "source": "/((?!api(?:/|$)).*)",
+      "destination": "/index.html"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "FLYING WHALES AD FILMS - Production Portal",
+  "description": "Advertising & Commercial Film Production management portal for Flying Whales Ad Films: daily production logs, crew schedules, Google Sheets synchronization, and macOS Apple Silicon employee activity agent.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

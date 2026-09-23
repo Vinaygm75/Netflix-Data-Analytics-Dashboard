@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <!-- Vibrant royal blue background squircle -->
+  <rect width="500" height="500" rx="96" fill="#0066FF"/>
+  
+  <g fill="none" stroke="#FFFFFF" stroke-width="28" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Blowhole Spout (Twin curved fountain sprays) -->
+    <!-- Left spout arc -->
+    <path d="M 288 190 C 288 150, 260 118, 218 116" />
+    <!-- Right spout arc -->
+    <path d="M 288 190 C 290 150, 320 118, 368 122" />
+
+    <!-- Whale Body Arch & Head -->
+    <!-- Starts at left vertical flank (with gap to bottom), arches up over the dome head, around front snout to bottom right -->
+    <path d="M 205 322 L 205 260 C 205 210, 245 190, 290 190 C 352 190, 390 230, 390 285 C 390 342, 355 385, 290 385 L 195 385 C 160 385, 140 365, 140 325 L 140 265 C 140 242, 110 242, 96 265 C 85 282, 85 305, 102 320 C 118 332, 140 325, 140 325" />
+    
+    <!-- Inner Leaf / Waterdrop cutout on the tail -->
+    <path d="M 124 275 C 124 288, 114 298, 105 292 C 100 286, 105 272, 120 270" stroke-width="20" />
+  </g>
+  
+  <!-- Solid Circular Eye -->
+  <circle cx="334" cy="285" r="14" fill="#FFFFFF" />
+</svg>
